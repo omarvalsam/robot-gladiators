@@ -196,7 +196,7 @@ var shop = function() {
 shopOptionPrompt = parseInt(shopOptionPrompt);
 switch (shopOptionPrompt) {
   case 1: 
-  playerInfo.refillHealth();
+  playerInfo.refillHealth(); 
     break;
   case 2:
     playerInfo.upgradeAttack();
